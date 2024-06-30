@@ -1,3 +1,5 @@
+// Step 1: Backend Setup
+// Update the backend to include JSON Web Token (JWT) and MongoDB for registration and login, and return the user information and token upon successful registration or login.
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
